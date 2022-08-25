@@ -1,0 +1,26 @@
+
+$blue: #339ecc;
+$danger: #ff4242;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+:root{
+    --bs-body-font-family: 'Open Sans', sans-serif;
+}
+
+.custom-bg{
+    background-image: url('./images/bg-curvy-desktop.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+.light{
+    color: #ced4da;
+}
+
+.margint{
+    margin-top: 7rem;
+}
+.minusmargin{
+    margin-top: -0.5rem;
+}
